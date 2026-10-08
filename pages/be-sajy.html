@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Be Sajy Training & Development Center, affiliated with St. Mary & St. Paul Church, offering practical skills courses for the community." />
+  <title>Be Sajy - St. Mary &amp; St. Paul Church</title>
+  <link rel="icon" type="image/png" href="../assets/church-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@400;600;700;800&family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body data-title-en="Be Sajy - St. Mary &amp; St. Paul Church" data-title-ar="بي ساجي - كنيسة السيدة العذراء والقديس بولس الرسول الحضره الجديده" data-desc-en="Be Sajy Training &amp; Development Center, affiliated with St. Mary &amp; St. Paul Church, offering practical skills courses for the community." data-desc-ar="مركز بي ساجي للتدريب والتنمية، التابع لكنيسة السيدة العذراء والقديس بولس الرسول، يقدّم دورات تدريبية عملية لأبناء الرعية.">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ar_AR/sdk.js#xfbml=1&version=v19.0"></script>
+  
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">
+      <img src="../assets/church-logo.png" alt="Church logo" class="brand-logo" />
+      <div>
+        <div class="brand-name" data-en="St. Mary &amp; St. Paul Church " data-ar="كنيسة السيدة العذراء والقديس بولس الرسول ">St. Mary &amp; St. Paul Church</div>
+        <div class="brand-sub" data-en="El Hadra El Gedida" data-ar="الحضرة الجديدة">El Hadra El Gedida</div>
+      </div>
+    </a>
+
+    <div class="nav-links">
+      <a href="../index.html" data-en="Home" data-ar="الرئيسية">Home</a><a href="about.html" data-en="About" data-ar="عن الكنيسة">About</a><a href="services.html" data-en="Services &amp; Liturgies" data-ar="القداسات والخدمات">Services &amp; Liturgies</a><a href="events.html" data-en="Events" data-ar="الفعاليات">Events</a><a href="be-sajy.html" class="active" data-en="Be Sajy" data-ar="بي ساجي">Be Sajy</a><a href="announcements.html" data-en="Announcements" data-ar="الإعلانات">Announcements</a><a href="gallery.html" data-en="Gallery" data-ar="المعرض">Gallery</a><a href="contact.html" data-en="Contact-Donate" data-ar="اتصل بنا-تبرع">Contact-Donate</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="lang-toggle" type="button" onclick="toggleLanguage()" aria-label="Language switch">
+        <span>العربية</span>
+        <span class="sep">|</span>
+        <span>English</span>
+      </button>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="nav-mob" id="navMob">
+  <button class="lang-toggle" type="button" onclick="toggleLanguage()" aria-label="Language switch">
+    <span>العربية</span>
+    <span class="sep">|</span>
+    <span>English</span>
+  </button>
+  <a href="../index.html" data-en="Home" data-ar="الرئيسية">Home</a><a href="about.html" data-en="About" data-ar="عن الكنيسة">About</a><a href="services.html" data-en="Services &amp; Liturgies" data-ar="القداسات والخدمات">Services &amp; Liturgies</a><a href="events.html" data-en="Events" data-ar="الفعاليات">Events</a><a href="be-sajy.html" class="active" data-en="Be Sajy" data-ar="بي ساجي">Be Sajy</a><a href="announcements.html" data-en="Announcements" data-ar="الإعلانات">Announcements</a><a href="gallery.html" data-en="Gallery" data-ar="المعرض">Gallery</a><a href="contact.html" data-en="Contact-Donate" data-ar="اتصل بنا-تبرع">Contact-Donate</a>
+</div>
+
+  
+<div class="pg-banner">
+  <div class="container">
+    <h1 data-en="Be Sajy" data-ar="بي ساجي">Be Sajy</h1>
+    <div class="breadcrumb"><span data-en="Home" data-ar="الرئيسية">Home</span> <span class="bc-gold">›</span> <span class="bc-gold" data-en="Be Sajy" data-ar="بي ساجي">Be Sajy</span></div>
+  </div>
+</div>
+
+<section class="section sec--alt">
+  <div class="container">
+    <div class="sec-hd">
+      <span class="eyebrow" data-en="Current &amp; Upcoming" data-ar="الحالي والقادم">Current &amp; Upcoming</span>
+      <h2 data-en="Our Lessons" data-ar="الدروس">Our Lessons</h2>
+      <p data-en="Browse our current private lessons below." data-ar="تصفّح الدروس الحالية أدناه.">Browse our current private lessons below.</p>
+    </div>
+
+    <div class="subject-filters" role="group" aria-label="Filter lessons by subject">
+      <button type="button" class="subject-filter active" data-filter="all" data-en="All Subjects" data-ar="كل المواد">All Subjects</button>
+      <button type="button" class="subject-filter" data-filter="arabic" data-en="Arabic" data-ar="اللغة العربية">Arabic</button>
+      <button type="button" class="subject-filter" data-filter="english" data-en="English" data-ar="اللغة الإنجليزية">English</button>
+      <button type="button" class="subject-filter" data-filter="french" data-en="French" data-ar="اللغة الفرنسية">French</button>
+      <button type="button" class="subject-filter" data-filter="german" data-en="German" data-ar="اللغة الألمانية">German</button>
+      <button type="button" class="subject-filter" data-filter="math" data-en="Math" data-ar="الرياضيات">Math</button>
+      <button type="button" class="subject-filter" data-filter="science" data-en="Science" data-ar="العلوم">Science</button>
+      <button type="button" class="subject-filter" data-filter="science-math" data-en="Science &amp; Math" data-ar="العلوم والرياضيات">Science &amp; Math</button>
+      <button type="button" class="subject-filter" data-filter="social" data-en="Social Studies" data-ar="الدراسات الاجتماعية">Social Studies</button>
+      <button type="button" class="subject-filter" data-filter="ict" data-en="ICT" data-ar="تكنولوجيا المعلومات">ICT</button>
+      <button type="button" class="subject-filter" data-filter="multi" data-en="Arabic, Math &amp; English" data-ar="عربي وحساب وانجليزي">Arabic, Math &amp; English</button>
+    </div>
+
+    <div class="grid-4 course-grid">
+
+      <div class="course-card reveal-up" data-subject="arabic">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_arabic_lobna.jpg" alt="Arabic Lessons — Lobna Shaker" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Arabic Lessons" data-ar="دروس اللغة العربية">Arabic Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Lobna Shaker" data-ar="الأستاذة: لبنى شاكر">Instructor: Lobna Shaker</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 4–5:30 PM (6th Primary), 5:30–7 PM (1st Prep)" data-ar="الاثنين: 4 - 5.30 م (سادس ابتدائي)، 5.30 - 7 م (أول إعدادي)">Monday: 4–5:30 PM (6th Primary), 5:30–7 PM (1st Prep)</li>
+            <li data-en="Tuesday: 3:30–5 PM (5th), 5–6:30 PM (6th), 6:30–8 PM (3rd Prep)" data-ar="الثلاثاء: 3.30 - 5 م (خامس)، 5 - 6.30 م (سادس)، 6.30 - 8 م (ثالث إعدادي)">Tuesday: 3:30–5 PM (5th), 5–6:30 PM (6th), 6:30–8 PM (3rd Prep)</li>
+            <li data-en="Thursday: 4–5:30 PM (4th), 5:30–7 PM (5th), 7–8:30 PM (2nd Prep)" data-ar="الخميس: 4 - 5.30 م (رابع)، 5.30 - 7 م (خامس)، 7 - 8.30 م (ثاني إعدادي)">Thursday: 4–5:30 PM (4th), 5:30–7 PM (5th), 7–8:30 PM (2nd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="arabic">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_arabic_hossam.jpg" alt="Arabic Lessons — Preparatory Stage — Hossam El Basha" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Arabic Lessons — Preparatory Stage" data-ar="دروس اللغة العربية - للمرحلة الإعدادية">Arabic Lessons — Preparatory Stage</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Hossam El Basha" data-ar="الأستاذ: حسام الباشا">Instructor: Hossam El Basha</span></div>
+          <ul class="course-tags">
+            <li data-en="Simple explanation &amp; strong foundation" data-ar="شرح مبسط وتأسيس قوي">Simple explanation &amp; strong foundation</li>
+            <li data-en="Varied exercises &amp; periodic tests" data-ar="تدريبات متنوعة واختبارات دورية">Varied exercises &amp; periodic tests</li>
+            <li data-en="Continuous follow-up for excellence" data-ar="متابعة مستمرة لضمان التفوق">Continuous follow-up for excellence</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="english">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_english_marina.jpg" alt="English Lessons — Marina Samir" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="English Lessons" data-ar="دروس اللغة الإنجليزية">English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Marina Samir" data-ar="الأستاذة: مارينا سمير">Instructor: Marina Samir</span></div>
+          <ul class="course-tags">
+            <li data-en="Saturday: 3–4:30 PM (4th Primary)" data-ar="السبت: 3 - 4.30 م (الرابع الابتدائي)">Saturday: 3–4:30 PM (4th Primary)</li>
+            <li data-en="Saturday: 4:30–6 PM (5th Primary)" data-ar="السبت: 4.30 - 6 م (الخامس الابتدائي)">Saturday: 4:30–6 PM (5th Primary)</li>
+            <li data-en="Saturday: 6–7:30 PM (6th Primary)" data-ar="السبت: 6 - 7.30 م (السادس الابتدائي)">Saturday: 6–7:30 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="english">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_english_stephen.jpg" alt="English Lessons — Dr. Stephen Safwat" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="English Lessons" data-ar="دروس اللغة الإنجليزية">English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Dr. Stephen Safwat" data-ar="د: ستيفن صفوت">Instructor: Dr. Stephen Safwat</span></div>
+          <ul class="course-tags">
+            <li data-en="Sunday: 3:30–5:30 PM (3rd Prep), 5–6:30 PM (1st Prep), 6:30–8 PM (2nd Prep)" data-ar="الأحد: 3.30 - 5.30 م (ثالث إعدادي)، 5 - 6.30 م (أول إعدادي)، 6.30 - 8 م (ثاني إعدادي)">Sunday: 3:30–5:30 PM (3rd Prep), 5–6:30 PM (1st Prep), 6:30–8 PM (2nd Prep)</li>
+            <li data-en="Tuesday: 3:30–5 PM (4th Primary), 5–6:30 PM (5th Primary), 6:30–8 PM (6th Primary)" data-ar="الثلاثاء: 3.30 - 5 م (رابع ابتدائي)، 5 - 6.30 م (خامس ابتدائي)، 6.30 - 8 م (سادس ابتدائي)">Tuesday: 3:30–5 PM (4th Primary), 5–6:30 PM (5th Primary), 6:30–8 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="english">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_english_marine_fayek.jpg" alt="English Lessons — Marine Fayek" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="English Lessons" data-ar="دروس اللغة الإنجليزية">English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Marine Fayek" data-ar="م: مارين فايق">Instructor: Marine Fayek</span></div>
+          <ul class="course-tags">
+            <li data-en="Wednesday: 3:30–5 PM (Primary Stage)" data-ar="الأربعاء: 3.30 - 5 م (المرحلة الابتدائية)">Wednesday: 3:30–5 PM (Primary Stage)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="english">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_english_george_ibrahim.jpg" alt="English Lessons — George Ibrahim" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="English Lessons" data-ar="دروس اللغة الإنجليزية">English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: George Ibrahim" data-ar="م: جورج إبراهيم">Instructor: George Ibrahim</span></div>
+          <ul class="course-tags">
+            <li data-en="For Preparatory Stage (Grades 1, 2 &amp; 3)" data-ar="للمرحلة الإعدادية (الصفوف الأول والثاني والثالث)">For Preparatory Stage (Grades 1, 2 &amp; 3)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="french">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_french_rania_saeed.jpg" alt="French Lessons — Rania Saeed" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="French Lessons" data-ar="دروس اللغة الفرنسية">French Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Rania Saeed" data-ar="الأستاذة: رانيا سعيد">Instructor: Rania Saeed</span></div>
+          <ul class="course-tags">
+            <li data-en="For Primary &amp; Preparatory stages" data-ar="للمرحلة الابتدائية والإعدادية">For Primary &amp; Preparatory stages</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="math">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_math_boula.jpg" alt="Mathematics Lessons — Boula Samy" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Mathematics Lessons" data-ar="دروس الرياضيات">Mathematics Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Boula Samy" data-ar="الأستاذ: بولا سامي">Instructor: Boula Samy</span></div>
+          <ul class="course-tags">
+            <li data-en="Sunday: 3:30–5 PM (4th Primary), 5–6:30 PM (5th Primary), 6:30–8 PM (6th Primary)" data-ar="الأحد: 3.30 - 5 م (رابع ابتدائي)، 5 - 6.30 م (خامس ابتدائي)، 6.30 - 8 م (سادس ابتدائي)">Sunday: 3:30–5 PM (4th Primary), 5–6:30 PM (5th Primary), 6:30–8 PM (6th Primary)</li>
+            <li data-en="Monday: 3:30–5 PM (1st Prep), 5–6:30 PM (2nd Prep), 6:30–8 PM (3rd Prep)" data-ar="الاثنين: 3.30 - 5 م (أول إعدادي)، 5 - 6.30 م (ثاني إعدادي)، 6.30 - 8 م (ثالث إعدادي)">Monday: 3:30–5 PM (1st Prep), 5–6:30 PM (2nd Prep), 6:30–8 PM (3rd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="math">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_math_marefy_boulos.jpg" alt="Mathematics Lessons — Marefy Boulos" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Mathematics Lessons" data-ar="دروس الرياضيات">Mathematics Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Marefy Boulos" data-ar="الأستاذة: مارفي بولس">Instructor: Marefy Boulos</span></div>
+          <ul class="course-tags">
+            <li data-en="Tuesday: 3–5:30 PM (4th), 5:30–6 PM (5th), 6:30–8 PM (6th)" data-ar="الثلاثاء: 3 - 5.30 م (رابع)، 5.30 - 6 م (خامس)، 6.30 - 8 م (سادس)">Tuesday: 3–5:30 PM (4th), 5:30–6 PM (5th), 6:30–8 PM (6th)</li>
+            <li data-en="Sunday: 5:30–7 PM (1st Prep), 7–8:30 PM (2nd Prep)" data-ar="الأحد: 5.30 - 7 م (أول إعدادي)، 7 - 8.30 م (ثاني إعدادي)">Sunday: 5:30–7 PM (1st Prep), 7–8:30 PM (2nd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="math">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_math_bitar_mikhail.jpg" alt="Mathematics Lessons — Bitar Mikhail" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Mathematics Lessons" data-ar="دروس الرياضيات">Mathematics Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Bitar Mikhail" data-ar="الأستاذ: بيتر ميخائيل">Instructor: Bitar Mikhail</span></div>
+          <ul class="course-tags">
+            <li data-en="Saturday: 3:30–5 PM" data-ar="السبت: 3.30 - 5 م">Saturday: 3:30–5 PM</li>
+            <li data-en="Saturday: 5–6:30 PM" data-ar="السبت: 5 - 6.30 م">Saturday: 5–6:30 PM</li>
+            <li data-en="Saturday: 6:30–8 PM" data-ar="السبت: 6.30 - 8 م">Saturday: 6:30–8 PM</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="math">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_math_abram.jpg" alt="Math Lessons — Abram Marzouk" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Math Lessons" data-ar="دروس الرياضيات">Math Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Abram Marzouk" data-ar="الأستاذ: أبرام مرزوق">Instructor: Abram Marzouk</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday 4 PM (4th Primary)" data-ar="الاثنين 4 م (رابع ابتدائي)">Monday 4 PM (4th Primary)</li>
+            <li data-en="Tuesday 4 PM (5th Primary)" data-ar="الثلاثاء 4 م (خامس ابتدائي)">Tuesday 4 PM (5th Primary)</li>
+            <li data-en="Wednesday 4 PM (6th Primary) &amp; Thursday 4 PM (1st Prep)" data-ar="الأربعاء 4 م (سادس ابتدائي) والخميس 4 م (أول إعدادي)">Wednesday 4 PM (6th Primary) &amp; Thursday 4 PM (1st Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_helana.jpg" alt="Science Lessons — Helana Sedhom" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Helana Sedhom" data-ar="الأستاذة: هيلانة سيدهم">Instructor: Helana Sedhom</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 3:30–5 PM (5th Primary), 5–6:30 PM (6th Primary), 6:30–8 PM (1st Prep)" data-ar="الاثنين: 3.30 - 5 م (خامس ابتدائي)، 5 - 6.30 م (سادس ابتدائي)، 6.30 - 8 م (أول إعدادي)">Monday: 3:30–5 PM (5th Primary), 5–6:30 PM (6th Primary), 6:30–8 PM (1st Prep)</li>
+            <li data-en="Wednesday: 3:30–5 PM (4th Primary)" data-ar="الأربعاء: 3.30 - 5 م (رابع ابتدائي)">Wednesday: 3:30–5 PM (4th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_marian.jpg" alt="Science Lessons — Marian El-Amir" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Marian El-Amir" data-ar="الأستاذة: ماريان الأمير">Instructor: Marian El-Amir</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday 6 PM (5th Primary)" data-ar="الاثنين 6 م (خامس ابتدائي)">Monday 6 PM (5th Primary)</li>
+            <li data-en="Tuesday 6 PM (4th Primary)" data-ar="الثلاثاء 6 م (رابع ابتدائي)">Tuesday 6 PM (4th Primary)</li>
+            <li data-en="Wednesday 6 PM (6th Primary) &amp; Thursday 6 PM (1st Prep)" data-ar="الأربعاء 6 م (سادس ابتدائي) والخميس 6 م (أول إعدادي)">Wednesday 6 PM (6th Primary) &amp; Thursday 6 PM (1st Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_mina_kamal.jpg" alt="Science Lessons — Mina Kamal" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mina Kamal" data-ar="الأستاذ: مينا كمال">Instructor: Mina Kamal</span></div>
+          <ul class="course-tags">
+            <li data-en="Saturday: 4–5:30 PM (3rd Prep)" data-ar="السبت: 4 - 5.30 م (ثالث إعدادي)">Saturday: 4–5:30 PM (3rd Prep)</li>
+            <li data-en="Saturday: 5:30–7 PM (1st Prep)" data-ar="السبت: 5.30 - 7 م (أول إعدادي)">Saturday: 5:30–7 PM (1st Prep)</li>
+            <li data-en="Saturday: 7–8:30 PM (2nd Prep)" data-ar="السبت: 7 - 8.30 م (ثاني إعدادي)">Saturday: 7–8:30 PM (2nd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_peter_mounir.jpg" alt="Science Lessons — Peter Mounir" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Peter Mounir" data-ar="الأستاذ: بيتر منير">Instructor: Peter Mounir</span></div>
+          <ul class="course-tags">
+            <li data-en="Sunday: 3:30–5 PM (1st Prep)" data-ar="الأحد: 3.30 - 5 م (أول إعدادي)">Sunday: 3:30–5 PM (1st Prep)</li>
+            <li data-en="Sunday: 5–6:30 PM (2nd Prep)" data-ar="الأحد: 5 - 6.30 م (ثاني إعدادي)">Sunday: 5–6:30 PM (2nd Prep)</li>
+            <li data-en="Sunday: 6:30–8 PM (3rd Prep)" data-ar="الأحد: 6.30 - 8 م (ثالث إعدادي)">Sunday: 6:30–8 PM (3rd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_germine_marcos.jpg" alt="Science Lessons — Germine Marcos" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Germine Marcos" data-ar="الأستاذة: جيرمين مرقص">Instructor: Germine Marcos</span></div>
+          <ul class="course-tags">
+            <li data-en="Sunday: 3:30–5 PM (6th Primary), 5–6:30 PM (4th Primary), 6:30–8 PM (5th Primary)" data-ar="الأحد: 3.30 - 5 م (سادس ابتدائي)، 5 - 6.30 م (رابع ابتدائي)، 6.30 - 8 م (خامس ابتدائي)">Sunday: 3:30–5 PM (6th Primary), 5–6:30 PM (4th Primary), 6:30–8 PM (5th Primary)</li>
+            <li data-en="Tuesday: 4–5:30 PM (4th), 5:30–7 PM (5th), 7–8:30 PM (6th)" data-ar="الثلاثاء: 4 - 5.30 م (رابع)، 5.30 - 7 م (خامس)، 7 - 8.30 م (سادس)">Tuesday: 4–5:30 PM (4th), 5:30–7 PM (5th), 7–8:30 PM (6th)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_marcelino_maged.jpg" alt="Science Lessons — Marcelino Maged" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Marcelino Maged" data-ar="الأستاذ: مارشلينو ماجد">Instructor: Marcelino Maged</span></div>
+          <ul class="course-tags">
+            <li data-en="For Primary &amp; Preparatory stages" data-ar="للمرحلة الابتدائية والإعدادية">For Primary &amp; Preparatory stages</li>
+            <li data-en="Saturday: 4:30–6 PM, 6–7:30 PM, 7:30–9 PM" data-ar="السبت: 4.30 - 6 م، 6 - 7.30 م، 7.30 - 9 م">Saturday: 4:30–6 PM, 6–7:30 PM, 7:30–9 PM</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_kirollos_elamir.jpg" alt="Science Lessons — Kirollos El-Amir" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Kirollos El-Amir" data-ar="الأستاذ: كيرلس الأمير">Instructor: Kirollos El-Amir</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 4–5:30 PM (1st Prep), 5:30–7 PM (2nd Prep), 7–8:30 PM (3rd Prep)" data-ar="الاثنين: 4 - 5.30 م (أول إعدادي)، 5.30 - 7 م (ثاني إعدادي)، 7 - 8.30 م (ثالث إعدادي)">Monday: 4–5:30 PM (1st Prep), 5:30–7 PM (2nd Prep), 7–8:30 PM (3rd Prep)</li>
+            <li data-en="Thursday: 4–5:30 PM (4th Primary), 5:30–7 PM (5th Primary), 7–8:30 PM (6th Primary)" data-ar="الخميس: 4 - 5.30 م (رابع ابتدائي)، 5.30 - 7 م (خامس ابتدائي)، 7 - 8.30 م (سادس ابتدائي)">Thursday: 4–5:30 PM (4th Primary), 5:30–7 PM (5th Primary), 7–8:30 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_mariam_nasser.jpg" alt="Science Lessons — Mariam Nasser" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mariam Nasser" data-ar="الأستاذة: مريم ناصر">Instructor: Mariam Nasser</span></div>
+          <ul class="course-tags">
+            <li data-en="Sunday: 4–6 PM (4th Primary)" data-ar="الأحد: 4 - 6 م (رابع ابتدائي)">Sunday: 4–6 PM (4th Primary)</li>
+            <li data-en="Wednesday: 4–6 PM (5th Primary), 6–8 PM (6th Primary)" data-ar="الأربعاء: 4 - 6 م (خامس ابتدائي)، 6 - 8 م (سادس ابتدائي)">Wednesday: 4–6 PM (5th Primary), 6–8 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_angy_michel.jpg" alt="Science Lessons — Angy Michel" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Angy Michel" data-ar="الأستاذة: أنجي ميشيل">Instructor: Angy Michel</span></div>
+          <ul class="course-tags">
+            <li data-en="Saturday: 6–7:30 PM (3rd Prep)" data-ar="السبت: 6 - 7.30 م (ثالث إعدادي)">Saturday: 6–7:30 PM (3rd Prep)</li>
+            <li data-en="Tuesday: 4–5:30 PM (1st Prep), 5:30–7 PM (2nd Prep)" data-ar="الثلاثاء: 4 - 5.30 م (أول إعدادي)، 5.30 - 7 م (ثاني إعدادي)">Tuesday: 4–5:30 PM (1st Prep), 5:30–7 PM (2nd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_science_nadine_nabil.jpg" alt="Science Lessons — Nadine Nabil" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science Lessons" data-ar="دروس العلوم">Science Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Nadine Nabil" data-ar="الأستاذة: نادين نبيل">Instructor: Nadine Nabil</span></div>
+          <ul class="course-tags">
+            <li data-en="Primary Stage (4th, 5th &amp; 6th)" data-ar="المرحلة الابتدائية (الرابع والخامس والسادس)">Primary Stage (4th, 5th &amp; 6th)</li>
+            <li data-en="Preparatory Stage (1st &amp; 2nd)" data-ar="المرحلة الإعدادية (أولى وتانية)">Preparatory Stage (1st &amp; 2nd)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="science-math">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_sciencemath_kirollos.jpg" alt="Science &amp; Mathematics Lessons — Kirollos Samir" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Science &amp; Mathematics Lessons" data-ar="دروس العلوم والرياضيات">Science &amp; Mathematics Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Kirollos Samir" data-ar="الأستاذ: كيرلس سمير">Instructor: Kirollos Samir</span></div>
+          <ul class="course-tags">
+            <li data-en="Thursday: 3:30–5 PM (5th Primary), 5–6:30 PM (4th Primary), 6:30–8 PM (6th Primary)" data-ar="الخميس: 3.30 - 5 م (خامس ابتدائي)، 5 - 6.30 م (رابع ابتدائي)، 6.30 - 8 م (سادس ابتدائي)">Thursday: 3:30–5 PM (5th Primary), 5–6:30 PM (4th Primary), 6:30–8 PM (6th Primary)</li>
+            <li data-en="Saturday: 3–4:30 PM (1st Prep), 4:30–6 PM (2nd Prep), 6–7:30 PM (3rd Prep)" data-ar="السبت: 3 - 4.30 م (أول إعدادي)، 4.30 - 6 م (ثاني إعدادي)، 6 - 7.30 م (ثالث إعدادي)">Saturday: 3–4:30 PM (1st Prep), 4:30–6 PM (2nd Prep), 6–7:30 PM (3rd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="social">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_social_fady.jpg" alt="Social Studies Lessons — Fady Karam" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Social Studies Lessons" data-ar="دروس الدراسات الاجتماعية">Social Studies Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Fady Karam" data-ar="الأستاذ: فادي كرم">Instructor: Fady Karam</span></div>
+          <ul class="course-tags">
+            <li data-en="Tuesday: 5:30–7 PM (5th Primary)" data-ar="الثلاثاء: 5.30 - 7 م (الصف الخامس الابتدائي)">Tuesday: 5:30–7 PM (5th Primary)</li>
+            <li data-en="Wednesday: 3–4:30 PM (4th Primary) &amp; 4:30–6 PM (1st Prep)" data-ar="الأربعاء: 3 - 4.30 م (الرابع الابتدائي) و4.30 - 6 م (الأول الإعدادي)">Wednesday: 3–4:30 PM (4th Primary) &amp; 4:30–6 PM (1st Prep)</li>
+            <li data-en="Thursday: 3–4:30 PM (6th Primary Boys) &amp; 4:30–6 PM (6th Primary Girls)" data-ar="الخميس: 3 - 4.30 م (سادس ابتدائي أولاد) و4.30 - 6 م (سادس ابتدائي بنات)">Thursday: 3–4:30 PM (6th Primary Boys) &amp; 4:30–6 PM (6th Primary Girls)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="social">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_social_mariam.jpg" alt="Social Studies Lessons — Mariam Bishay" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Social Studies Lessons" data-ar="دروس الدراسات الاجتماعية">Social Studies Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mariam Bishay" data-ar="الأستاذة: مريم بشاي">Instructor: Mariam Bishay</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 5–6:30 PM (5th Primary)" data-ar="الاثنين: 5 - 6.30 م (خامس ابتدائي)">Monday: 5–6:30 PM (5th Primary)</li>
+            <li data-en="Monday: 6:30–8 PM (4th Primary)" data-ar="الاثنين: 6.30 - 8 م (رابع ابتدائي)">Monday: 6:30–8 PM (4th Primary)</li>
+            <li data-en="Wednesday: 5–6:30 PM (6th Primary)" data-ar="الأربعاء: 5 - 6.30 م (سادس ابتدائي)">Wednesday: 5–6:30 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="social">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_social_mina_rashid.jpg" alt="Social Studies Lessons — Mina Rashid" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Social Studies Lessons" data-ar="دروس الدراسات الاجتماعية">Social Studies Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mina Rashid" data-ar="الأستاذ: مينا رشيد">Instructor: Mina Rashid</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 6:30–8 PM (2nd Prep)" data-ar="الاثنين: 6.30 - 8 م (ثاني إعدادي)">Monday: 6:30–8 PM (2nd Prep)</li>
+            <li data-en="Wednesday: 5–7 PM (3rd Prep)" data-ar="الأربعاء: 5 - 7 م (ثالث إعدادي)">Wednesday: 5–7 PM (3rd Prep)</li>
+            <li data-en="Wednesday: 7–8:30 PM (1st Prep)" data-ar="الأربعاء: 7 - 8.30 م (أول إعدادي)">Wednesday: 7–8:30 PM (1st Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="social">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_social_shady_farid.jpg" alt="Social Studies Lessons — Shady Farid" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Social Studies Lessons" data-ar="دروس الدراسات الاجتماعية">Social Studies Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Shady Farid" data-ar="الأستاذ: شادي فريد">Instructor: Shady Farid</span></div>
+          <ul class="course-tags">
+            <li data-en="Tuesday: 3:30–5 PM &amp; 5–6:30 PM" data-ar="الثلاثاء: 3.30 - 5 م و5 - 6.30 م">Tuesday: 3:30–5 PM &amp; 5–6:30 PM</li>
+            <li data-en="Thursday: 6–7:30 PM" data-ar="الخميس: 6 - 7.30 م">Thursday: 6–7:30 PM</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="social">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_social_mina_ezzat.jpg" alt="Social Studies Lessons — Mina Ezzat" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Social Studies Lessons" data-ar="دروس الدراسات الاجتماعية">Social Studies Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mina Ezzat" data-ar="الأستاذ: مينا عزت">Instructor: Mina Ezzat</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 3–4:30 PM (5th Primary)" data-ar="الاثنين: 3 - 4.30 م (خامس ابتدائي)">Monday: 3–4:30 PM (5th Primary)</li>
+            <li data-en="Monday: 4:30–6 PM (4th Primary)" data-ar="الاثنين: 4.30 - 6 م (رابع ابتدائي)">Monday: 4:30–6 PM (4th Primary)</li>
+            <li data-en="Monday: 6–7:30 PM (6th Primary)" data-ar="الاثنين: 6 - 7.30 م (سادس ابتدائي)">Monday: 6–7:30 PM (6th Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="german">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_german_sami.jpg" alt="German Lessons — Sami Elias" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="German Lessons" data-ar="دروس اللغة الألمانية">German Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Sami Elias" data-ar="الأستاذ: سامي الياس">Instructor: Sami Elias</span></div>
+          <ul class="course-tags">
+            <li data-en="Wednesday: 4–5:30 PM (1st Prep)" data-ar="الأربعاء: 4 - 5.30 م (أول إعدادي)">Wednesday: 4–5:30 PM (1st Prep)</li>
+            <li data-en="Wednesday: 5:30–7 PM (2nd Prep)" data-ar="الأربعاء: 5.30 - 7 م (ثاني إعدادي)">Wednesday: 5:30–7 PM (2nd Prep)</li>
+            <li data-en="Wednesday: 7–8:30 PM (3rd Prep)" data-ar="الأربعاء: 7 - 8.30 م (ثالث إعدادي)">Wednesday: 7–8:30 PM (3rd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="ict">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_ict_mina.jpg" alt="ICT Lessons — Mina Fouad" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="ICT Lessons" data-ar="دروس تكنولوجيا المعلومات">ICT Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mina Fouad" data-ar="الأستاذ: مينا فؤاد">Instructor: Mina Fouad</span></div>
+          <ul class="course-tags">
+            <li data-en="Monday: 5:30–7 PM (4th Primary)" data-ar="الاثنين: 5.30 - 7 م (رابع ابتدائي)">Monday: 5:30–7 PM (4th Primary)</li>
+            <li data-en="Tuesday: 3:30–5 PM (6th Primary), 5–6:30 PM (1st Prep)" data-ar="الثلاثاء: 3.30 - 5 م (سادس ابتدائي)، 5 - 6.30 م (أول إعدادي)">Tuesday: 3:30–5 PM (6th Primary), 5–6:30 PM (1st Prep)</li>
+            <li data-en="Wednesday: 5:30–7 PM (5th Primary), 7–8:30 PM (2nd Prep)" data-ar="الأربعاء: 5.30 - 7 م (خامس ابتدائي)، 7 - 8.30 م (ثاني إعدادي)">Wednesday: 5:30–7 PM (5th Primary), 7–8:30 PM (2nd Prep)</li>
+            <li data-en="Thursday: 4–5:30 PM (3rd Prep)" data-ar="الخميس: 4 - 5.30 م (ثالث إعدادي)">Thursday: 4–5:30 PM (3rd Prep)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="multi">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_multi_martina_bishay.jpg" alt="Arabic, Math &amp; English Lessons — Martina Bishay" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Arabic, Math &amp; English Lessons" data-ar="دروس عربي وحساب وانجليزي">Arabic, Math &amp; English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Martina Bishay" data-ar="الأستاذة: مارتينا بشاي">Instructor: Martina Bishay</span></div>
+          <ul class="course-tags">
+            <li data-en="For grades 1–3 Primary" data-ar="للصفوف الأول والثاني والثالث الابتدائي">For grades 1–3 Primary</li>
+            <li data-en="Sunday: 3:30–5:30 PM" data-ar="الأحد: 3.30 - 5.30 م">Sunday: 3:30–5:30 PM</li>
+            <li data-en="Wednesday: 5–7 PM" data-ar="الأربعاء: 5 - 7 م">Wednesday: 5–7 PM</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="multi">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_multi_mona_atef.jpg" alt="Arabic, Math &amp; English Lessons — Mona Atef" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Arabic, Math &amp; English Lessons" data-ar="دروس عربي وحساب وانجليزي">Arabic, Math &amp; English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Mona Atef" data-ar="الأستاذة: منى عاطف">Instructor: Mona Atef</span></div>
+          <ul class="course-tags">
+            <li data-en="For grades 2–3 Primary" data-ar="للصفين الثاني والثالث الابتدائي">For grades 2–3 Primary</li>
+            <li data-en="Saturday: 3:30–5:30 PM (2nd Primary), 5:30–7:30 PM (3rd Primary)" data-ar="السبت: 3.30 - 5.30 م (ثاني ابتدائي)، 5.30 - 7.30 م (ثالث ابتدائي)">Saturday: 3:30–5:30 PM (2nd Primary), 5:30–7:30 PM (3rd Primary)</li>
+            <li data-en="Thursday: 3:30–5 PM (2nd Primary)" data-ar="الخميس: 3.30 - 5 م (ثاني ابتدائي)">Thursday: 3:30–5 PM (2nd Primary)</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+      <div class="course-card reveal-up" data-subject="multi">
+        <div class="course-media">
+          <span class="course-badge" data-en="Registration Open" data-ar="الحجز متاح">Registration Open</span>
+          <img src="../assets/lesson_multi_merna_reda.jpg" alt="Arabic, Math &amp; English Lessons — Merna Reda" />
+        </div>
+        <div class="course-body">
+          <h3 class="course-title" data-en="Arabic, Math &amp; English Lessons" data-ar="دروس عربي وحساب وانجليزي">Arabic, Math &amp; English Lessons</h3>
+          <div class="course-instructor"><i class="fa-solid fa-chalkboard-user"></i><span data-en="Instructor: Merna Reda" data-ar="الأستاذة: ميرنا رضا">Instructor: Merna Reda</span></div>
+          <ul class="course-tags">
+            <li data-en="For 3rd Primary" data-ar="للصف الثالث الابتدائي">For 3rd Primary</li>
+            <li data-en="Sunday, Tuesday &amp; Wednesday: 7–8:30 PM" data-ar="الأحد والثلاثاء والأربعاء: 7 - 8.30 م">Sunday, Tuesday &amp; Wednesday: 7–8:30 PM</li>
+          </ul>
+          <a class="course-cta" href="tel:01220229473"><i class="fa-solid fa-phone"></i><span data-en="Book Now — 01220229473" data-ar="للحجز والتواصل - 01220229473">Book Now — 01220229473</span></a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="course-card course-card--soon reveal-up" data-subject="all-only">
+        <div class="course-soon-icon"><i class="fa-solid fa-hourglass-half"></i></div>
+        <div class="course-soon-title" data-en="New Lesson Coming Soon" data-ar="درس جديد قريبًا">New Lesson Coming Soon</div>
+        <div class="course-soon-text" data-en="Details will be announced soon. Stay tuned!" data-ar="التفاصيل ستُعلن قريبًا، تابعونا!">Details will be announced soon. Stay tuned!</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-band reveal-up">
+      <div>
+        <h2 data-en="Registration &amp; Inquiries" data-ar="الحجز والاستفسارات">Registration &amp; Inquiries</h2>
+        <p data-en="For booking a spot or asking about upcoming courses, reach out to us by phone or email." data-ar="للحجز في أي دورة أو الاستفسار عن الدورات القادمة، تواصلوا معنا عبر الهاتف أو البريد الإلكتروني.">For booking a spot or asking about upcoming courses, reach out to us by phone or email.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-gold" href="https://wa.me/201220229473" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> 01220229473</a>
+        <a class="btn btn-outline" href="mailto:besagycenter@gmail.com"><i class="fa-solid fa-envelope"></i> besagycenter@gmail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="sec-hd">
+      <span class="eyebrow" data-en="Stay Updated" data-ar="تابعنا أول بأول">Stay Updated</span>
+      <h2 data-en="Latest From Our Facebook Page" data-ar="آخر أخبارنا على صفحة الفيسبوك">Latest From Our Facebook Page</h2>
+      <p data-en="New lessons and posters are published automatically here as soon as they're posted on our Facebook page." data-ar="أي درس أو بوستر جديد بينزل على صفحتنا على فيسبوك بيظهر هنا تلقائيًا.">New lessons and posters are published automatically here as soon as they're posted on our Facebook page.</p>
+    </div>
+    <div class="fb-feed-wrap reveal-up">
+      <div class="fb-page"
+           data-href="https://www.facebook.com/profile.php?id=61589929242329"
+           data-tabs="timeline"
+           data-width="500"
+           data-height="700"
+           data-small-header="false"
+           data-adapt-container-width="true"
+           data-hide-cover="false"
+           data-show-facepile="true">
+        <blockquote cite="https://www.facebook.com/profile.php?id=61589929242329" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/profile.php?id=61589929242329">مركز بي ساجي للتدريب والتنمية</a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+<footer id="footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-about">
+        <div class="foot-logo">
+          <img src="../assets/church-logo.png" alt="Church logo" class="foot-logo-img" />
+          <span data-en="St. Mary &amp; St. Paul Church  El Hadra El Gedida" data-ar="كنيسة السيدة العذراء والقديس بولس الرسول الحضره الجديده">St. Mary &amp; St. Paul Church  El Hadra El Gedida</span>
+        </div>
+        <div class="foot-social">
+          <a href="https://www.youtube.com/@St.Mary_St.Paul_HG" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube" style="color:#ff0000"></i></a>
+          <a href="https://www.facebook.com/St.MarySt.Paul.HG/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook" style="color:#1877f2"></i></a>
+        </div>
+      </div>
+
+      <div class="foot-col">
+        <h4 data-en="Contact" data-ar="التواصل">Contact</h4>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-phone"></i> <a href="tel:033803481">033803481</a></li>
+          <li><i class="fa-solid fa-envelope"></i><a href="mailto:stmary.stpoul.hg@gmail.com">stmary.stpoul.hg@gmail.com</a></li>
+          <li><i class="fa-solid fa-location-dot"></i><a href="https://maps.app.goo.gl/TsvVpz9CCjcPpRaT8" target="_blank" rel="noopener" data-en="El Hadra El Gedida, Alexandria" data-ar="الحضرة الجديدة، الإسكندرية">El Hadra El Gedida, Alexandria</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <span data-en="© 2026 St. Mary &amp; St. Paul Church  El Hadra El Gedida. All rights reserved." data-ar="© 2026 كنيسة السيدة العذراء والقديس بولس الرسول الحضره الجديده. جميع الحقوق محفوظة.">© 2026 St. Mary &amp; St. Paul Church  El Hadra El Gedida. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+  <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+  <script src="../js/main.js"></script>
+</body>
+</html>
