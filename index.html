@@ -14,6 +14,14 @@
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<style>
+  /* Ukususa inkinobho ye-OneSignal uyiyise kwesobunxele */
+  #onesignal-bell-container,
+  .onesignal-bell-launcher-container {
+    left: 20px !important;
+    right: auto !important;
+  }
+</style>
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
