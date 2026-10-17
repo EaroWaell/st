@@ -15,13 +15,15 @@
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <style>
-  /* Ukususa inkinobho ye-OneSignal uyiyise kwesobunxele */
   #onesignal-bell-container,
-  .onesignal-bell-launcher-container {
+  .onesignal-bell-launcher-container,
+  .onesignal-bell-launcher,
+  #onesignal-slidedown-container {
     left: 20px !important;
     right: auto !important;
   }
 </style>
+
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
@@ -30,7 +32,7 @@
       safari_web_id: "web.onesignal.auto.6a2e4cfc-4f7f-4e0a-b787-2d0bd3e78806",
       notifyButton: {
         enable: true,
-        position: 'bottom-left', // هذا السطر ينقل الجرس للناحية اليسرى
+        position: 'bottom-left',
       },
     });
   });
