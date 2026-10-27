@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1a3a"/>
+      <stop offset="100%" stop-color="#233158"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="45%" r="48%">
+      <stop offset="0%" stop-color="#f3d98b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#f3d98b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#skyA)"/>
+  <rect width="800" height="400" fill="url(#glowA)"/>
+
+  <!-- laurel-style side flourishes -->
+  <g stroke="#c9a253" stroke-width="3" fill="none" opacity="0.6">
+    <path d="M170,330 Q140,270 175,210 Q150,260 185,300"/>
+    <path d="M630,330 Q660,270 625,210 Q650,260 615,300"/>
+  </g>
+
+  <!-- Key of St. Peter -->
+  <g transform="translate(330,210) rotate(-28)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#f3d98b" stroke-width="8"/>
+    <rect x="-6" y="20" width="12" height="95" fill="#f3d98b"/>
+    <rect x="-6" y="95" width="26" height="12" fill="#f3d98b"/>
+    <rect x="-6" y="75" width="20" height="10" fill="#f3d98b"/>
+  </g>
+
+  <!-- Sword of St. Paul -->
+  <g transform="translate(470,205) rotate(28)">
+    <rect x="-6" y="-95" width="12" height="140" fill="#e7e2d6"/>
+    <polygon points="-6,-95 6,-95 0,-125" fill="#e7e2d6"/>
+    <rect x="-30" y="35" width="60" height="12" rx="4" fill="#f3d98b"/>
+    <rect x="-8" y="42" width="16" height="34" fill="#c9a253"/>
+  </g>
+
+  <!-- crossing point halo -->
+  <circle cx="400" cy="215" r="10" fill="#fff8e6" opacity="0.85"/>
+
+  <!-- base ribbon -->
+  <path d="M260,330 Q400,300 540,330 L540,352 Q400,324 260,352 Z" fill="#c9a253" opacity="0.85"/>
+</svg>
