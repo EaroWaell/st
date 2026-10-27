@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1a3a"/>
+      <stop offset="100%" stop-color="#1a2744"/>
+    </linearGradient>
+    <radialGradient id="glowC" cx="50%" cy="28%" r="45%">
+      <stop offset="0%" stop-color="#f3d98b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f3d98b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#skyC)"/>
+  <rect width="800" height="400" fill="url(#glowC)"/>
+
+  <!-- stars -->
+  <g fill="#f3d98b" opacity="0.8">
+    <circle cx="120" cy="60" r="2.2"/>
+    <circle cx="200" cy="110" r="1.6"/>
+    <circle cx="650" cy="70" r="2"/>
+    <circle cx="700" cy="130" r="1.6"/>
+    <circle cx="560" cy="50" r="1.4"/>
+    <circle cx="90" cy="150" r="1.4"/>
+  </g>
+
+  <!-- guiding star of Bethlehem -->
+  <g transform="translate(400,95)">
+    <path d="M0,-46 L11,-11 L46,0 L11,11 L0,46 L-11,11 L-46,0 L-11,-11 Z" fill="#f3d98b"/>
+    <circle r="7" fill="#fff8e6"/>
+  </g>
+  <line x1="400" y1="141" x2="400" y2="205" stroke="#f3d98b" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- distant hills -->
+  <path d="M0,260 Q200,220 400,255 T800,240 V400 H0 Z" fill="#141f3d"/>
+
+  <!-- stable / manger silhouette -->
+  <g fill="#0a1330">
+    <path d="M290,400 V300 L400,235 L510,300 V400 Z"/>
+  </g>
+  <path d="M290,300 L400,235 L510,300" fill="none" stroke="#c9a253" stroke-width="4"/>
+
+  <!-- manger + cross motif -->
+  <g transform="translate(400,320)">
+    <rect x="-55" y="10" width="110" height="18" rx="4" fill="#c9a253"/>
+    <path d="M-40,10 L-40,-20 M40,10 L40,-20" stroke="#c9a253" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-4" r="10" fill="#fff8e6"/>
+  </g>
+
+  <!-- small cross atop stable roof -->
+  <g stroke="#c9a253" stroke-width="4" stroke-linecap="round">
+    <line x1="400" y1="205" x2="400" y2="230"/>
+    <line x1="388" y1="214" x2="412" y2="214"/>
+  </g>
+</svg>
