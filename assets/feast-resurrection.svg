@@ -1,0 +1,43 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyR" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2744"/>
+      <stop offset="55%" stop-color="#3a3564"/>
+      <stop offset="100%" stop-color="#c9a253"/>
+    </linearGradient>
+    <radialGradient id="sunR" cx="50%" cy="72%" r="42%">
+      <stop offset="0%" stop-color="#fff3cf" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#f3d98b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#f3d98b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#skyR)"/>
+  <rect width="800" height="400" fill="url(#sunR)"/>
+
+  <!-- sun rays -->
+  <g stroke="#fff8e6" stroke-width="2" opacity="0.5">
+    <line x1="400" y1="288" x2="400" y2="230"/>
+    <line x1="330" y1="300" x2="300" y2="255"/>
+    <line x1="470" y1="300" x2="500" y2="255"/>
+    <line x1="270" y1="330" x2="220" y2="300"/>
+    <line x1="530" y1="330" x2="580" y2="300"/>
+  </g>
+
+  <!-- horizon hill -->
+  <path d="M0,300 Q250,270 400,290 T800,285 V400 H0 Z" fill="#141f3d" opacity="0.85"/>
+
+  <!-- open tomb entrance -->
+  <path d="M320,400 V330 Q320,270 400,270 Q480,270 480,330 V400 Z" fill="#0a1330"/>
+
+  <!-- rolled stone -->
+  <circle cx="255" cy="372" r="34" fill="#2a2550" stroke="#c9a253" stroke-width="3"/>
+
+  <!-- empty cross on the hill above -->
+  <g stroke="#f3d98b" stroke-width="9" stroke-linecap="round">
+    <line x1="400" y1="120" x2="400" y2="235"/>
+    <line x1="358" y1="155" x2="442" y2="155"/>
+  </g>
+
+  <!-- linen cloths inside tomb -->
+  <path d="M370,340 Q400,320 430,340 L430,360 Q400,345 370,360 Z" fill="#f7ecd0" opacity="0.9"/>
+</svg>
